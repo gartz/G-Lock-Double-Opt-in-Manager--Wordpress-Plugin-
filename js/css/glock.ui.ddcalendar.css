@@ -1,0 +1,19 @@
+.gl-ddbox-cal-btn {
+	background : url(../images/icons/calendar.png) no-repeat scroll 50% 50%;
+	/*border: 1px solid #B6B6B6;*/
+	width: 1.3em;
+	right: 1px;
+	top: 1px;
+	bottom: 1px;
+	position: absolute;
+	cursor: pointer;	
+}
+
+.gl-cbox-wrp {
+	overflow:hidden;
+}
+
+.gl-cal {
+	margin: 0;
+	z-index: 1001;
+}

@@ -1,0 +1,107 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: G-Lock Double Opt-in Manager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-11-25 17:14-0300\n"
+"PO-Revision-Date: 2010-11-25 17:17-0300\n"
+"Last-Translator: Gabriel <gartz@l6.com.br>\n"
+"Language-Team: Gabriel R. Giannattasio <gartz@l6.com.br>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Language: Portuguese\n"
+"X-Poedit-Country: BRAZIL\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: glsft-optin.php:1347
+msgid "If you find any bugs or have ideas for improvements or enhancements to functionality, please tell us. If possible, we will take your hints in consideration for future releases. If you have any questions or problems and want to get help from our support team or other users, please, visit <a target=\"_blank\" href=\"http://www.justlan.com/forum/viewforum.php?f=24\">G-Lock Software Community Forums</a>. We will be proud to help you. We will be happy if you could suggest WordPress Double Opt-In List Management Plugin from G-Lock Software to other people who could be interested in it, e. g. your friends, colleagues or maybe even your website visitors. Download free <a href=\"http://www.glockeasymail.com/?ref=1878\">email marketing software</a> to send your newsletter."
+msgstr " "
+
+#: glsft-optin.php:1352
+#: glsft-optin.php:1557
+#: glsft-optin.php:2138
+msgid "Update Options"
+msgstr "Salvar Alterações"
+
+#: glsft-optin.php:1356
+#: glsft-optin.php:2018
+msgid "General"
+msgstr "Geral"
+
+#: glsft-optin.php:1357
+msgid "Submission Form"
+msgstr "Formulário de Inscrição"
+
+#: glsft-optin.php:2221
+#: glsft-optin.php:2222
+msgid "Newsletter"
+msgstr "Newsletter"
+
+#: glsft-optin.php:2231
+#: glsft-optin.php:2232
+msgid "Settings"
+msgstr "Configurações"
+
+#: glsft-optin.php:2240
+#: glsft-optin.php:2241
+msgid "Subscribers"
+msgstr "Inscritos"
+
+#: glsft-optin.php:2250
+#: glsft-optin.php:2251
+msgid "Debugger"
+msgstr "Depurador"
+
+#: glsft-optin.php:2260
+#: glsft-optin.php:2261
+msgid "Blog Broadcast"
+msgstr "Transmissão do Blog"
+
+#: glsft-optin.php:2587
+msgid "Confirmation Successful"
+msgstr "Sucesso na Confirmação"
+
+#: glsft-optin.php:2600
+#, fuzzy
+msgid "Already Confirmed"
+msgstr "Já Está Inscrito"
+
+#: glsft-optin.php:2610
+msgid "Already Subscribed"
+msgstr "Já Está Inscrito"
+
+#: glsft-optin.php:2614
+msgid "Subscription Changed"
+msgstr "Inscrição Alterada"
+
+#: glsft-optin.php:2614
+msgid "<h2>You subscription email was successfully changed.</h2>"
+msgstr "<h2>Sua inscrição de e-mail foi alterada com sucesso.</h2>"
+
+#: glsft-optin.php:2625
+msgid "Successfully Unsubscribed"
+msgstr "Sucesso na Remoção da Inscrição"
+
+#: glsft-optin.php:2631
+msgid "Bad Email Address"
+msgstr "Endereço de Email Inválido"
+
+#: glsft-optin.php:2635
+#: glsft-optin.php:2640
+msgid "<h3>Your email address was not found in our database.</h3>"
+msgstr "<h3>Seu endereço de email não foi encontrado na nossa base de dados.</h3>"
+
+#: glsft-optin.php:2636
+msgid "Confirmation Failed"
+msgstr "Confirmação Falhou"
+
+#: glsft-optin.php:2641
+msgid "Email not found"
+msgstr "Email não encontrado"
+
+#: glsft-optin.php:3655
+msgid "G-Lock Double Opt-in Manager"
+msgstr "Gerenciador de Newsletter"
+

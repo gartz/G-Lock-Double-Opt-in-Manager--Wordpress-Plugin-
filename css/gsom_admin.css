@@ -1,0 +1,249 @@
+.gsom-edit-label {
+    width: 80px;
+    float:left;
+    line-height:22px;
+    vertical-align:middle;
+}
+.gsom-edit-label-small {
+    width: 70px;
+    float:left;
+    line-height:18px;
+    vertical-align:middle;
+}
+
+.gsom-edit-small {
+    font-size: 10px;
+    margin-left: 5px;
+    width: 260px;
+}
+
+.gsom_bnone {
+    border: none !important;
+}
+
+.gsom-select-small {
+    font-size:9px !important;
+    padding:0px !important;
+    line-height:18px !important;
+    float:left;
+    background: white !important;
+}
+
+.gsom-radio-small {
+    float:left !important;
+    margin-top: 4px !important;
+}
+
+.nicEdit-selectTxt {
+    /*height: 15px !important;    */
+    line-height:12px;
+    margin-top: 3px !important;
+}
+
+.form-table {
+    margin: 0;
+    border-collapse: separate !important;
+    border-spacing:0 !important;
+}
+
+.form-table * {
+    background: transparent;
+}
+
+.form-table input[type='text'],
+.form-table input[type='edit'],
+.form-table textarea,
+.form-table fieldset{
+    /*width: 500px;*/
+    width: 98%;
+}
+
+#gsom-fields-list input[type='text'],
+#gsom-fields-list input[type='edit'],
+#gsom-fields-list textarea,
+#gsom-fields-list fieldset{
+    width: auto;
+}
+
+#gsom-smtp-settings input[type='text'],
+#gsom-smtp-settings input[type='edit'],
+#gsom-smtp-settings input[type='password'],
+#gsom-smtp-settings textarea,
+#gsom-smtp-settings fieldset{
+    width: 268px;;
+}
+
+input[type='text'],
+input[type='edit'],
+input[type='password'],
+textarea,
+fieldset
+input[type="password"] {
+	-moz-box-sizing:border-box;
+}
+
+.form-table h3,
+.form-table h4 {
+    margin: 0;
+}
+
+.gsom-warning {
+	color: #F5C141 !important;
+	border: 1px solid #dedede;
+	background: #F5F5F5;
+	margin: 0 10px;
+	padding: 4px;
+}
+
+
+
+.gsom-tbl-wrapper {
+    border: 1px solid #C6D9E9;    
+    border-top: none;
+    background: #ffffff;
+    padding: 3px;
+}
+
+.form-table td, .form-table th {
+    border-bottom:none;
+}
+
+.form-table td, .form-table th,
+.form-table tr, .form-table thead,
+.form-table tbody {
+    background: #ffffff;
+}
+
+.form-table > tbody > tr > td {
+	padding: 10px;
+}
+
+.form-table td.info {
+	border-left: 1px solid #C6D9E9;
+	width: 260px;
+	vertical-align: top;
+}
+
+.gsom_variables p {
+    margin: 5px 0 !important;
+}
+
+.gsom-opt-panel-left {
+	width: 510px;
+	border-right:1px solid #C6D9E9;
+	float: left;
+	margin-right:5px;
+	padding-right:5px;	
+}
+.gsom-opt-panel-right {
+	width: 260px; 
+	float:left;
+}
+
+.gsom-opt-cbox {
+	float:left;
+	margin-right:5px; 
+	margin-top: 5px;	
+}
+
+.mceToolbar table tbody tr td {
+	background: #DFDFDF;
+}
+
+/*****************/
+
+#gsom-bcst-posts-pv {
+	clear: both;
+	border: 1px solid #E3E3E3;		
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
+
+#gsom-bcst-posts {
+	overflow-y: auto;
+	height: 200px;
+}
+
+.gsom-bcst-topbar {
+	background:#DFDFDF url(../js/images/gl-cal-hgrad.png) repeat-x scroll 0 0;
+	margin:0;
+	padding: 3px 5px;
+	overflow: hidden;
+}
+
+.gsom-bcst-topbar select {
+	background: #F6F6F6;	
+}
+
+
+
+.gsom-bcst-post {
+	padding: 2px 4px;
+	background: #F9F9F9;
+	border-bottom: 1px solid #E3E3E3;
+}
+
+.gsom-bcst-post-hdr {
+	font-weight: bold;	
+	display: block;
+}
+
+.gsom-bcst-post-hdr .gsom-title {	
+	color: #21759B;
+	
+}
+
+.gsom-bcst-post-hdr .gsom-date {
+	display: block;	
+}
+
+
+.gsom-upd-message {
+	background-color:#FFFFE0;
+	border-color:#E6DB55;
+	-moz-border-radius-bottomleft:3px;
+	-moz-border-radius-bottomright:3px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-topright:3px;
+	border-style:solid;
+	border-width:1px;
+	margin:5px 15px 2px;
+	padding:0 0.6em;	
+}
+
+.gsom-upd-message p {
+	margin:0.5em 0;	
+}
+
+#gsom_smtp_secure_conn input {
+	float: left;
+	margin: 6px 3px 0 0;
+}
+#gsom_smtp_secure_conn label {
+	line-height: 26px;
+}
+
+.bcst_status_idle {
+	color: #7AB900;
+}
+
+.bcst_status_running {
+	color: #D54E21;
+}
+
+.bcst_status_error,
+.bcst_status_disabled {
+	color: #DE0108;
+}
+
+.gsom_flink {
+	cursor: pointer;
+	color: #21759B;
+	border-bottom: 1px dashed #21759B;
+}
+
+.gsom_flink:hover {
+	color: #D54E21;
+	border-bottom: 1px dashed #D54E21;
+}
+

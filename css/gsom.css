@@ -1,0 +1,928 @@
+#gsom_form input {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+}
+
+ul#gsom-fields-list input[type="radio"],
+ul#gsom-fields-list input[type="checkbox"] {
+	border: none;
+}
+
+
+th.gsom-sec-hdr,
+div.gsom-ap-hdr {
+	font-weight: bold;
+}
+
+div.gsom-ap-hdr {
+	margin: 5px 0;
+}
+
+div.gsom-eml-edit {
+	width: 510px;
+	border-right:1px solid #C6D9E9;
+	float: left;
+	margin-right:5px;
+	padding-right:5px;
+}
+
+div.gsom-eml-edit p {
+	font-weight: bold;
+	margin-top: 6px;
+}
+
+
+/*************** =BForm ***************/
+
+div.bform
+{
+	display:block;
+	left:200px;	
+	position:absolute;
+	top:200px;
+	z-index: 1000;
+	margin: 0px;
+	padding: 0px;
+	zoom:1;	
+}
+
+/*   top row  */
+
+div.bform-lt
+{
+	width: 100%;
+	height: 8px;
+	background: url(../img/form_lt.png) no-repeat scroll left;
+	padding-left: 8px;
+}
+
+div.bform-t
+{
+	height: 8px;
+	width: 100%;
+	background: url(../img/form_t.png) repeat-x scroll;
+	overflow: hidden;
+}
+
+div.bform-rt
+{
+	height: 8px;
+	width: 100%;
+	padding-right: 8px;	
+	background: url(../img/form_rt.png) no-repeat scroll right;
+}
+
+/* middle row */
+
+div.bform-l
+{
+	padding-left: 8px;
+	width: 100%;
+	/*height: 100%;*/
+	background: url(../img/form_l.png) repeat-y scroll left;
+}
+
+div.bform-body
+{
+	width: 100%;
+	height: 100%;
+	background: url(../img/form_bg.png) repeat-x;
+	border: 1px solid #99BBE8;
+}
+
+div.bform-r
+{
+	padding-right: 8px;
+	width: 100%;
+	/*height: 100%;*/
+	background: url(../img/form_r.png) repeat-y scroll right;
+}
+
+/* bottom row */
+
+div.bform-lb
+{
+	width: 100%;
+	height: 8px;
+	background: url(../img/form_lb.png) no-repeat scroll left;
+	padding-left: 8px;
+}
+
+div.bform-b
+{
+	height: 8px;
+	width: 100%;
+	background: url(../img/form_b.png) repeat-x scroll;
+	overflow: hidden;
+}
+
+div.bform-rb
+{
+	height: 8px;
+	width: 100%;
+	padding-right: 8px;	
+	background: url(../img/form_rb.png) no-repeat scroll right;
+}
+
+/* bform elements */
+
+div.bform-header
+{
+	cursor: move;
+	overflow: hidden;
+	font-family: tahoma,arial,verdana,sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	height: 18px;
+	color: #15428B;
+	background: url(../img/form_bg_h.png) repeat-x;
+}
+
+div.bform-closebutton
+{
+	width: 13px;
+	height: 13px;
+	background: url(../img/xbutton.png) no-repeat;
+	float: right;
+	cursor: pointer;
+}
+
+div.bform-closebutton:hover
+{
+	width: 13px;
+	height: 13px;
+	background: url(../img/xbutton-a.png) no-repeat;
+	float: right;
+	cursor: pointer;
+}
+
+
+/****** BButton ******/
+
+div.bbutton
+{
+	cursor: pointer;
+	overflow: hidden;
+	display: inline;
+	margin: 1px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+div.bbutton div.bbleftside
+{
+	width: 5px !important;
+	height: 23px !important;
+	/*background: url(/images/bbutton-left.png) no-repeat;*/
+	float: left;
+	display: inline-block;
+}
+
+div.bbutton div.bbrightside
+{
+	width: 5px !important;
+	height: 23px !important;
+	/*background: url(/images/bbutton-right.png) no-repeat;*/
+	float: left;
+	display: inline-block;
+}
+
+div.bbutton div.bbmiddle
+{
+	height: 23px;
+	/*background: #B2E1FF;*/
+	float: left;
+	display: inline-block;
+	/*overflow: hidden;*/  	
+}
+
+div.bbutton div.bbmiddle span
+{
+	line-height: 22px;
+/*	display: inline;
+	float: left;*/
+	float:left; 
+  overflow: hidden; 
+  display:inline-block;		
+}
+
+div.bbutton div.bbmiddle img.bbico
+{
+	float:left;
+	margin-right:6px;
+	margin-top:3px;
+}
+
+/**==========================*/
+div.bbutton_act
+{
+	cursor: pointer;
+	overflow: hidden;
+	display: inline;
+	margin: 1px;	
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+div.bbutton_act div.bbleftside
+{
+	width: 5px !important;
+	height: 23px !important;
+	background: url(/images/bbutton-left.png) no-repeat;
+	float: left;
+	display: inline;
+}
+
+div.bbutton_act div.bbrightside
+{
+	width: 5px !important;
+	height: 23px !important;
+	background: url(/images/bbutton-right.png) no-repeat;
+	float: left;
+	display: inline;
+}
+
+div.bbutton_act div.bbmiddle
+{
+	height: 23px;
+	background: #B2E1FF;
+	float: left;
+	display: inline;
+	/*overflow: hidden;*/	
+}
+
+div.bbutton_act div.bbmiddle span
+{
+	line-height: 22px;
+	float:left; 
+  overflow: hidden; 
+  display:inline;	
+}
+
+div.bbutton_act div.bbmiddle img.bbico
+{
+	float:left;
+	margin-right:6px;
+	margin-top:3px;
+}
+
+/****** GButton ******/
+
+div.glbutton
+{
+	cursor: pointer;
+	overflow: hidden;
+	/*display: inline;*/
+	float: left;
+	margin: 1px 3px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+div.glbutton div.bbleftside
+{
+	width: 5px;
+	height: 27px;
+	background: url(../img/sbutton_left.png) no-repeat;
+	float: left;	
+}
+
+div.glbutton div.bbrightside
+{
+	width: 5px;
+	height: 27px;
+	background: url(../img/sbutton_right.png) no-repeat;
+	float: left;
+}
+
+div.glbutton div.bbmiddle
+{
+	height: 27px;
+	background: url(../img/sbutton_mid.png) repeat-x;
+	float: left;
+	overflow: hidden;
+	text-align: center;
+}
+
+div.glbutton div.bbmiddle span
+{
+	line-height: 26px;
+}
+
+div.glbutton div.bbmiddle img.bbico
+{
+	float:left;
+	margin-right:6px;
+	margin-top:5px;
+}
+
+/**==========================*/
+div.glbutton_act
+{
+	cursor: pointer;
+	overflow: hidden;
+	/*display: inline;*/
+	float:left;
+	margin: 1px 3px;	
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+div.glbutton_act div.bbleftside
+{
+	width: 5px;
+	height: 27px;
+	background: url(../img/sbutton_left_act.png) no-repeat;
+	float: left;
+}
+
+div.glbutton_act div.bbrightside
+{
+	width: 5px;
+	height: 27px;
+	background: url(../img/sbutton_right_act.png) no-repeat;
+	float: left;
+}
+
+div.glbutton_act div.bbmiddle
+{
+	height: 27px;
+	background: url(../img/sbutton_mid_act.png) repeat-x;
+	float: left;
+	overflow: hidden;
+	text-align: center;
+}
+
+div.glbutton_act div.bbmiddle span
+{
+	line-height: 26px;
+}
+
+div.glbutton_act div.bbmiddle img.bbico
+{
+	float:left;
+	margin-right:6px;
+	margin-top:5px;
+}
+
+/**==========================*/
+div.glbutton_on
+{
+	cursor: pointer;
+	overflow: hidden;
+	/*display: inline;*/
+	float:left;
+	margin: 1px 3px;	
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+div.glbutton_on div.bbleftside
+{
+	width: 5px;
+	height: 27px;
+	background: url(../img/sbutton2_left_on.png) no-repeat;
+	float: left;
+}
+
+div.glbutton_on div.bbrightside
+{
+	width: 5px;
+	height: 27px;
+	background: url(../img/sbutton2_right_on.png) no-repeat;
+	float: left;
+}
+
+div.glbutton_on div.bbmiddle
+{
+	height: 27px;
+	background: url(../img/sbutton2_mid_on.png) repeat-x;
+	float: left;
+	overflow: hidden;
+}
+
+div.glbutton_on div.bbmiddle span
+{
+	line-height: 26px;
+}
+
+div.glbutton_on div.bbmiddle img.bbico
+{
+	float:left;
+	margin-right:6px;
+	margin-top:5px;
+}
+
+/*** gl button dropdown list***/
+
+ul.glbuttonddlist
+{
+	list-style: none;
+	position: absolute;
+	left: 100px;
+	top: 100px;	
+	background: #ffffff;	
+	padding: 0;
+	margin: 0;	
+	border: 1px solid #ADB9C2;
+}
+
+div.glbuttonddlistitem
+{
+	padding: 3px 3px 3px 26px;
+	cursor: default;	
+	font-family: tahoma,arial,sans-serif;
+	font-size: 11px;
+}
+
+div.glbuttonddlistitem:hover
+{
+	background: #eeeeee;
+}
+
+ul.glbuttonddlist li div.selected
+{
+	background: #D9E8FB;
+}
+
+/*** bForm list***/
+
+ul.bform-list
+{
+	list-style: none;
+	padding: 0 10px;
+	margin: 0;	
+}
+
+ul.bform-list li div
+{
+	overflow: hidden;
+}
+
+ul.bform-list li input[type='radio']
+{
+	float: left;
+	margin-right: 3px;
+}
+
+ul.bform-list li label
+{
+	display:block;
+	float:left;
+	font-weight:bold;
+	width:125px;
+}
+
+/*ul.bform-list li */
+div.btngroup 
+{
+	overflow:hidden;
+	margin-left:125px;
+}
+
+
+/****  gsom-fields-list ****/
+ul#gsom-fields-list {
+ margin:0; 
+ padding:0 0 10px 0;
+ list-style-type: none;
+}
+
+ul#gsom-fields-list li {
+ margin: 1px; 
+ /*padding: 5px;*/
+ cursor: move;
+ /*border:1px solid #C6D9E9;*/
+}
+
+
+div.gsom-list-item-wrapper
+{
+	width:250px;
+	float: left;
+	padding: 5px;
+	border:1px solid #C6D9E9;
+}
+
+ul#gsom-fields-list li
+{
+	overflow: hidden;
+}
+
+/*ul#gsom-fields-list li label
+div.gsom_sfi label 
+{
+	margin-right: 3px;
+	line-height: 23px;
+	float: left;
+} */
+
+ul#gsom-fields-list li input[type='radio']
+{
+	float: left;
+	margin-right: 3px;
+	height: 22px;
+}
+
+
+ul#gsom-fields-list li input[type='checkbox']
+{
+	float: left;
+	margin-right: 3px;
+	height: 22px;
+}
+
+ul#gsom-fields-list li input[type='text']
+{
+	float: right;
+}
+
+ul.bform-rb-list
+{
+	list-style:none;
+	padding:0;
+	margin:0;
+	overflow: hidden;
+}
+
+ul.bform-rb-list li input[type='radio']
+{
+	float:left;
+	height:18px;
+}
+
+
+ul.bform-rb-list li input[type='text']
+{
+	float:left;
+	font-family:arial;
+	font-size:11px;	
+	padding-bottom:0;
+	padding-left:0;
+	padding-right:0;
+	padding-top:0;
+	width:124px;
+}
+
+ul.grid
+{
+	background: #ffffff;
+	border:1px solid #A5ACB2;
+	list-style:none;
+	padding:0;
+	margin:0;
+	height: 70px;
+	width: 100%;
+}
+
+ul.grid *
+{
+	 overflow:hidden;
+	-o-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font:normal 11px arial, tahoma, helvetica, sans-serif;
+}
+
+div.grid-hdr
+{
+	background: #f9f9f9 url(../img/gridhdr.gif) repeat-x 0 bottom;
+ 	cursor:default;
+	zoom:1;
+	float: left;
+	overflow:hidden;
+	border-left:1px solid #eee;
+	border-right:1px solid #d0d0d0;	
+	padding:3px 3px 3px 5px;
+	
+}
+
+div.grid-row
+{
+	float: left;
+	padding:3px 3px 3px 5px;
+}
+
+
+/***** widget opt-in form *****/
+
+.gsom-optin-div-label
+{
+	display:block;
+}
+
+
+.gsom-optin-label
+{
+	display:block;
+	margin-right: 3px;
+	float:left;
+	
+}
+
+label.gsom-optin-label.radio {
+	margin-top: 3px;
+}
+
+ul.gsom-optin-form
+{
+	list-style: none;
+	margin: 0 !important;	
+	list-style-image: none;
+	list-style-type: none;
+	
+}
+
+ul.gsom-optin-form *
+{
+	list-style-type: none !important;
+	list-style-image: none !important;
+}
+
+div.gsom-optin-form div
+{
+	margin: 5px 0;	
+	/*overflow:hidden;*/
+}
+
+div.gsom-optin-form input {	
+	margin-bottom:2px;
+	margin-right:2px;	
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;	
+}
+
+div.gsom-optin-form input[type="text"] {
+	/*width: 100%;*/
+}
+
+span.gsom-required-msg {
+	border: 1px solid red;
+	margin: 0pt;
+	padding: 2px;
+	background: #CB211A;
+	display: block;
+	float: left;
+	color: #ffffff;
+}
+
+span.gsom-required-msg.cbox {
+	margin-top: 2px;
+}
+
+div.gsom-optin-radiogroup
+{	
+	margin-left: 10px;
+	float: left;
+	clear: both;
+}
+
+div.gsom-optin-radiogroup span.gsom-required-msg {
+	margin-top: 2px;
+}
+
+div.gsom_sfi {
+	clear: both;
+}
+
+/**** widget form builder (admin menu) ****/
+
+div.gsom-optin-radiogroup-admin
+{
+	float:right; 
+	width:164px;
+}
+
+.gsom-flink
+{
+	cursor: pointer;
+}
+
+table.gsom_small_table
+{
+	line-height:normal !important;
+}
+
+table.gsom_small_table tr 
+{
+	border: none !important;
+	line-height:normal !important;
+}
+
+table.gsom_small_table td
+{
+	border: none !important;
+	line-height:normal !important;
+	padding: 1px !important;
+	margin: 0 !important;
+}
+
+#gsom-confirm-mess-varlist p
+{
+	line-height: 100%;
+}
+
+/***	additional calss for non widget form ***/
+div.gsom-sa-wrapper /* div wrapper around the form */
+{
+	text-align: center;
+	background: #fafafa;
+	border: 1px solid #cccccc;
+	padding: 10px;
+}
+
+form.gsom-sa-from /* form class */
+{
+	
+}
+
+div.gsom-sa-placeholder /* block which contains all form inputs*/
+{
+	margin:0 auto;
+	overflow:hidden;
+	text-align:left;
+	width:150px;
+}
+
+span.gsom-oldname {
+	display: none;
+}
+
+/*    Advanced styling of widget form     */
+
+li#g-lock-double-opt-in-manager h2 {
+/*
+here you can style the form title
+*/
+}
+
+li#g-lock-double-opt-in-manager p {
+/*
+here you can style the text that appears above and below the form.
+*/
+}
+
+li#g-lock-double-opt-in-manager form {
+/*
+here you can style the form itself
+*/
+}
+
+div.gsom-optin-form {
+/*
+this is the main div container inside of
+element. It contains all the stuff: buttons, fields, labels, etc.
+*/
+}
+
+div.gsom-optin-form div {
+/*
+each form element with the label wrapped into div and you can style this container here
+*/
+}
+
+label.gsom-optin-div-label {
+/*
+this is the common class for all from field labels.
+*/
+}
+
+
+
+/*    Advanced styling of the standalone form which can be placed inside the page.   */
+
+div.gsom-sa-wrapper {
+/*
+This is the main container that wraps the standalone form including the title.
+*/
+}
+
+form.gsom-sa-from {
+/*
+class of a standalone form element
+*/
+}
+
+div.gsom-sa-placeholder {
+/*
+main container inside the form element.
+*/
+}
+
+/***  tabbed options page  ***/
+
+ul.gsom-tabs * {
+   -moz-user-select: none;
+   -khtml-user-select: none;
+   user-select: none;
+}
+
+.unselectable, .unselectable * {
+   -moz-user-select: none;
+   -khtml-user-select: none;
+   user-select: none;
+}
+
+ul.gsom-tabs {
+	background: transparent;
+	border-bottom:1px solid #c6d9e9;
+	font-size:12px;
+	height:29px;
+	margin:13px 0 0;
+	padding:0;
+	padding-left:8px;
+	list-style:none;
+}	
+
+ul.gsom-tabs li {
+	display:inline;
+	line-height: 200%;
+	list-style:none;
+	margin: 0;
+	padding:0;
+	position:relative;
+	top:1px;
+	text-align:center;
+	white-space:nowrap;
+}
+
+ul.gsom-tabs li span,
+ul.gsom-tabs li a {
+	background:transparent none no-repeat scroll 0%;
+	border:1px transparent #fff;
+	/*border-bottom:1px solid #c6d9e9;*/
+	display:block;
+	float:left;
+	color: #2583AD;
+	line-height:28px;
+	padding:1px 13px 0;
+	position:relative;
+	text-decoration:none;
+	cursor: pointer;
+}
+
+ul.gsom-tabs li.gsom-tabs-selected span,
+ul.gsom-tabs li.gsom-tabs-selected a {
+	-moz-border-radius-topleft:4px;
+	-webkit-border-top-left-radius: 4px;
+	-moz-border-radius-topright:4px;	
+	-webkit-border-top-right-radius: 4px;
+	background:#fff;
+	border:1px solid #c6d9e9;
+	border-bottom-color:#fff;
+	color:#d54e21;
+	font-weight:normal;
+	padding:0 12px;
+	cursor: default;
+}
+
+ul.gsom-tabs li span:hover,
+ul.gsom-tabs li a:hover {
+	color: #D54E21;
+}
+
+ul.gsom-tabs span:focus, 
+ul.gsom-tabs span:active,
+ul.gsom-tabs a:focus, 
+ul.gsom-tabs a:active {
+	outline: none;
+}
+/*******************************************/
+.plugin-support,
+.plugin-support * {
+    color: #dadada !important;    
+    font-size: x-small !important;
+}
+
+#gsom_smtp_secure_conn label {
+	width: auto;
+}
+
+.form-table br {
+  clear: both;
+}
+
+.gsom_widget p {
+	clear: both;
+}
+
+.gsom-optin-radiogroup input {
+	float: left;
+	margin: 3px !important;
+}
+
+.gsom-optin-radiogroup label {
+	margin-top: 3px;
+}
+
+div.gsom-optin-radiogroup input[type="submit"]{
+	background: url(../img/assine.png) no-repeat;
+	width:128px;
+	height:21px;
+	padding-left:0;
+	text-indent: -99999px;
+	cursor: pointer;
+}

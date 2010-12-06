@@ -1,0 +1,250 @@
+/* ----------------------- Glock Calendar ----------------------- */
+
+.gl-cal
+{
+	border: 1px solid #DFDFDF;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	margin:5px 0;
+	float: left;
+	background: #F9F9F9;
+	display : block;	
+	
+	font-size: 0.8em;
+	
+	font-family: verdana;		
+}
+
+.gl-cal-tbl
+{
+	font-size: 1em;
+	font-weight: bold;
+	width: auto;
+}
+
+/****** Buttons ********/
+
+.gl-cal-sbtn
+{
+	cursor: pointer;
+	display: block;		
+	
+	position: absolute;
+	
+	height: 2em;
+	width: 2em;
+}
+
+.gl-cal-sbtn span {
+	display:block;
+	
+	width: 1em;
+	height: 1em;
+	border: 1px solid #BBBBBB;
+	-moz-border-radius: 2px;	
+	-webkit-border-radius: 2px;
+	
+	position: relative;
+	
+	left:25%;
+	margin-left:-1px;
+	margin-top:0;
+	top:25%;
+	
+}
+
+.gl-cal-sbtn.left {	
+	left: 0px;		
+}
+
+.gl-cal-sbtn.left span {
+	background: #F3F3F3 url(../images/icons/tarrow-left.png) no-repeat scroll 50%;
+}
+
+.gl-cal-sbtn.right {
+	right: 0px;	
+}
+
+.gl-cal-sbtn.right span {
+	background: #F3F3F3 url(../images/icons/tarrow-right.png) no-repeat scroll 50%;
+}
+
+
+.gl-cal-head {
+	display: block;
+	font-size:1em;
+	margin:0 2em;
+	text-align:center;	
+}
+
+.gl-cal-controls {		
+	/*border: 1px solid ;*/
+	position: relative;	
+	background: #DFDFDF url(../images/gl-cal-hgrad.png) repeat-x scroll 0 0;	
+	padding: 1px;
+	margin: 0;	
+	line-height: 2em;
+}
+
+.gl-cal-footer {		
+	/*border: 1px solid ;*/
+	position: relative;	
+	background: #DFDFDF url(../images/gl-cal-hgrad.png) repeat-x scroll 0 0;	
+	padding: 1px 4px;
+	margin: 0;	
+	line-height: 1.3em;
+}
+
+
+
+.gl-cal-tbl * {
+	padding: 0 !important;
+	margin: 0 !important;
+	width: auto !important;
+}
+
+.gl-cal-tbl {
+	border-collapse: collapse;
+}
+
+.gl-cal-tbl td, 
+.gl-cal-tbl th{	
+	padding: 1px 4px !important;
+}
+
+
+/****** thead *******/
+
+
+
+.gl-cal-tbl thead * {
+	color: #21759B;	
+}
+
+/****** tbody *******/
+
+.gl-cal-tbl tbody {
+	text-align: center;	
+}
+
+.gl-cal-tbl tbody td span {
+	cursor: pointer;
+	padding: 2px;
+}
+
+.gl-cal-tbl tbody span.shaded
+{
+	color: #cccccc;
+	cursor: default;
+}
+
+.gl-cal-tbl tbody span.active
+{
+	color: #ffffff;
+	background: #D54E21;	
+	border: 1px solid #D54E21;
+	-moz-border-radius: 2px;	
+	-webkit-border-radius: 2px;	
+	cursor: default;
+}
+
+.gl-cal-tbl tbody tr td.gl-cal-weekNum {
+	font-size: 0.8em;
+	font-weight: normal;
+}
+
+/* --------------------- */
+
+
+.gl-cal-tbl tbody td.selected
+{
+	background: #0077CC;
+	color: #ffffff;
+}
+
+
+.gl-cal-tbl tbody td.prev
+{
+	color: #cccccc;
+}
+
+.gl-cal-tbl tbody td.prev.shaded
+{
+	color: #eeeeee;
+}
+
+
+.gl-cal-tbl tbody td.next
+{
+	color: #cccccc;
+}
+
+.gl-cal-tbl tbody td.next.shaded
+{
+	color: #cccccc;
+}
+
+.gl-cal-tbl tbody td.selected.prev
+{
+	background: #99C8EB;
+	color: #ffffff;	
+}
+
+.gl-cal-tbl tbody td.selected.next
+{
+	background: #99C8EB;
+	color: #ffffff;	
+}
+
+
+.gl-cal-tbl tbody td.shaded
+{
+	color: #cccccc;
+}
+
+div.gl-cal-tbl-cell {
+	border: 1px solid #F9F9F9;	
+	-moz-border-radius: 3px;	
+	-webkit-border-radius: 3px;	
+}
+
+div.gl-cal-tbl-cell:hover {
+	-moz-border-radius: 3px;	
+	-webkit-border-radius: 3px;		
+	border: 1px solid #D54E21;		
+}
+
+div.gl-cal-tbl-cell.today
+{
+	background: #68D1F4 !important;
+	color: #FFFFFF !important;
+	-moz-border-radius: 3px;	
+	-webkit-border-radius: 3px;	
+}
+
+div.gl-cal-tbl-cell.active
+{
+	background: #D54E21 !important;
+	color: #FFFFFF !important;
+	-moz-border-radius: 3px;	
+	-webkit-border-radius: 3px;	
+}
+
+.gl-cal-tbl tbody td.today.shaded
+{
+	background: #EBEFF4;
+	cursor: default;
+}
+
+.gl-cal-tbl tbody td.today.selected
+{
+	border: 1px solid black;
+}
+
+.gl-cal-timeedit {
+	/*border: none;*/
+	border: 1px solid #bcbcbc;
+	background: #EFEFEF;
+	width: 80px !important;
+}
+

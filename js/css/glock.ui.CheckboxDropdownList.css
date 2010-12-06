@@ -1,0 +1,68 @@
+.gl-cbox-wrp * {
+	box-sizing: border-box;	
+}
+.gl-cbox {	
+	line-height: 1.5em;
+	height: 1.5em;
+	border: 1px solid #B6B6B6;	
+	position: relative;	
+	float: left;
+	overflow: hidden;
+	padding: 0 3px;		
+	box-sizing: border-box;
+	background: #FFFFFF;
+}
+
+.gl-cbox-btn {
+	background : url(../images/icons/gl-down-arrow.gif) no-repeat scroll 50% 50%;
+	/*border: 1px solid #B6B6B6;*/
+	width: 1em;
+	right: 1px;
+	top: 1px;
+	bottom: 1px;
+	position: absolute;
+	cursor: pointer;
+}
+
+.gl-cbox-row-itms {
+	background: #FFFFFF;	
+	left: 1px;
+	margin-right: 1.3em;
+	overflow: hidden;
+}
+
+.gl-cbox-ddlist {
+	border: 1px solid #B6B6B6;
+	padding: 3px;
+	list-style: none;
+	position: absolute;
+	z-index: 1000;
+	margin: 0;
+	padding: 0;
+	background: #ffffff;
+}
+
+.gl-cbox-ddlist-li {
+	padding: 1px;
+	margin: 0;
+	cursor: pointer;	
+}
+
+.gl-cbox-ddlist-li:hover {
+	background: #eeeeee;
+}
+
+.gl-cbox-selectall {
+	border-bottom: 1px dotted #b6b6b6;
+}
+
+/*.gl-cbox-row-itm {
+	margin: 1px;
+	border: 1px solid #CAD8F3;
+	background: #DEE7F8;
+	padding: 0 3px;
+	float: left;
+	line-height: 1em;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+}*/
