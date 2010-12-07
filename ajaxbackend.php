@@ -2,9 +2,9 @@
 
 	require_once('json.php');
 
-	define('GSOM_SS_SUBSCRIBED',0);
-	define('GSOM_SS_CONFIRMED',1);
-	define('GSOM_SS_UNSUBSCRIBED',2);
+	if( ! defined('GSOM_SS_SUBSCRIBED') ) define('GSOM_SS_SUBSCRIBED',0);
+	if( ! defined('GSOM_SS_CONFIRMED') ) define('GSOM_SS_CONFIRMED',1);
+	if( ! defined('GSOM_SS_UNSUBSCRIBED') ) define('GSOM_SS_UNSUBSCRIBED',2);
 	
 	global $gsom_ajresponse;
 	
