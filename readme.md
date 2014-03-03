@@ -1,4 +1,8 @@
-=== G-Lock Double Opt-in Manager ===
+G-Lock Double Opt-in Manager
+============================
+
+[![Analytics](https://ga-beacon.appspot.com/UA-24619548-7/G-Lock-Opt-in-Manager--Wordpress-Plugin/readme)](https://github.com/igrigorik/ga-beacon)
+
 Contributors: Alex Ladyga, G-Lock Software
 Donate Link: http://www.glockeasymail.com/wordpress-email-newsletter-plugin-for-double-opt-in-subscription/
 Tags: Double Opt-in Manager, wp mailing list management, newsletter plugin for WP, create newsletter in wordpress, WP Newsletter Plugin, sidebar widget, plugin wordpress mail newsletter, email marketing software
@@ -8,9 +12,10 @@ Stable tag: 2.4.9
 
 This mailing list management plugin allows the visitors of your blog subscribe to your mailing list using a double opt-in method.
 
-== Description ==
+Description
+-----------
 
-= IMPORTANT: PHP 5 required! =
+**IMPORTANT: PHP 5 required!**
 
 This mailing list management plugin allows the visitors of your blog subscribe to your mailing list using a double opt-in method. The plugin sends an email with the subscription confirmation link to the user and if the user confirms the subscription, it sends a welcome email to each new subscriber. The details of new subscribers are saved to the internal WordPress database. You can <a href="http://www.glockeasymail.com/wordpress-email-newsletter-plugin-for-double-opt-in-subscription/" title="create double opt-in mailing list">manage the mailing list inside WordPress</a> and export the list for the further use in your <a href="http://www.glockeasymail.com/" title="bulk email marketing software">email marketing software</a>. You can also use the plugin to convert your blog RSS feed into an email newsletter and send it out to your subscribers. You can design the style and content of your email newsletter yourself and you can schedule your email broadcast weekly, monthly or as soon as you add a certain number of new posts to your blog. Please see the <a href="http://www.glockeasymail.com/wordpress-email-newsletter-plugin-for-double-opt-in-subscription/history/" title="Double Opt-In sidebar widget version history">VERSION HISTORY</a> for what's new and current bugfixes.
 
@@ -67,7 +72,7 @@ The plugin is pre-configured by default to collect the subscribers' email addres
 
 * From Name: - enter the name you want to send notification emails to new subscribers from. It may be either your contact name, or company name.
 * From Email: - enter the email address you want to send notification emails to new subscribers from
-* Send Welcome Message – check this box if you want to send a welcome message to each new subscriber
+* Send Welcome Message ï¿½ check this box if you want to send a welcome message to each new subscriber
 * Send Unsubscribe Notification - check this box if you want to send a notification that the user has successfully unsubscribed from your list
 
 = 3. Submission Form: =
